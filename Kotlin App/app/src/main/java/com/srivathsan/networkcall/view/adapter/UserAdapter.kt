@@ -8,7 +8,7 @@ import com.srivathsan.networkcall.R
 import com.srivathsan.networkcall.model.network.response.User
 import kotlinx.android.synthetic.main.item_user.view.*
 
-class UserAdapter constructor(val userList: ArrayList<User>) : RecyclerView.Adapter<UserAdapter.MyViewHolder>() {
+class UserAdapter constructor(private val userList: ArrayList<User>) : RecyclerView.Adapter<UserAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, type: Int): MyViewHolder {
         val view = LayoutInflater.from(parent.context)
