@@ -3,4 +3,3 @@ This project calls an API in GET method using Retrofit and then populates them i
 ### Libraries used are
 - GSON, Retrofit2
 - Recyclerview
-- Butterknife 
